@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<style>
+    body {
+        background-color: rgba(18, 48, 56, 0.8)
+    }
+    .card-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: -5px; /* Negative margin to counteract the margin of the cards */
+    }
+    .card {
+        width: calc(50% - 10px); /* Adjust width and margin as needed */
+        margin: 5px; /* Adjust margin as needed */
+    }
+</style>
+
+<main class="main main--home" style="padding: 15px;max-width: 600px;"></main>
+
+<div class="card-container">
+    <div class="card" style="width: 18rem;">
+        <img src="static/img/other_project_01.png" href="/other_project_01" class="card-img-top" >
+        <div class="card-body">
+            <h5 class="card-title">Statistical Modeling</h5>
+            <p class="card-text">Discovering the Most Important Variables for Income in E-commerce Marketing Campaigns.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"># Python</li>
+            <li class="list-group-item"># Statistical Analysis </li>
+            <li class="list-group-item"># E-commerce Marketing</li>
+        </ul>
+        <div class="card-body">
+            <a href="/other_project_01" class="btn btn-info">Notebook</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="static/img/data_clean.png" href="/other_project_02" class="card-img-top" >
+        <div class="card-body">
+            <h5 class="card-title">Data Clean</h5>
+            <p class="card-text">Data Cleaning in chart of accounts and automating the generation of an income statement.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"># Python</li>
+            <li class="list-group-item"># Data Clean </li>
+            <li class="list-group-item"># Accounting</li>
+        </ul>
+        <div class="card-body">
+            <a href="/other_project_02" class="btn btn-info">Notebook</a>
+        </div>
+    </div>
+
+</div>
+
+{% endblock conteudo %}
+

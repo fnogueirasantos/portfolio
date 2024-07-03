@@ -1,0 +1,58 @@
+body {
+    background-image: url('img/background_home.jpg'); /* Relative path to the image from the location of styles.css */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.custom-jumbotron {
+    background-image: url('img/image_into_data_app.jpg');
+    background-color: #213341; /* Background color of the jumbotron */
+    color: #f6f7f8; /* Text color inside the jumbotron */
+    padding: 150px; /* Padding inside the jumbotron */
+    border-radius: 30px; /* Border radius for rounded corners */
+    border: 5px solid #f2f2f3; /* Border around the jumbotron */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Box shadow for a subtle depth effect */
+    text-align: center; /* Text alignment inside the jumbotron */
+    /* Add more styles as needed */
+}
+
+.btn-custom {
+    background-color: #dddddd; /* Set your desired background color */
+    color: #12111b; /* Set your desired text color */
+    /* Add more styles as needed */
+}
+
+.btn-custom:hover {
+    background-color: #2980b9; /* Change the background color on hover */
+    /* Add more hover styles as needed */
+}
+
+
+<style>
+  /* Custom CSS to style carousel controls and indicators for dark background */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(1); /* Invert the color of the control icons */
+  }
+
+  .carousel-indicators .active {
+    background-color: #fff; /* Change the active indicator color */
+  }
+</style>

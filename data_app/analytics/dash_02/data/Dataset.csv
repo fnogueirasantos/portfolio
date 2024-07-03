@@ -1,0 +1,289 @@
+Account,Sub Account,Realized,LastYear,OrderAccount,Company
+(+) Gross Revenue,Goods Sold,8947550.61,8532917.23,0,Drug Store
+(+) Gross Revenue,Services Rendered,5595943.95,4817807.1,0,Drug Store
+(-) Deductions,Discounts,-268938.04,-250060.55,1,Drug Store
+(-) Deductions,Goods and Services Tax,-652593.29,-606786.0,1,Drug Store
+(-) Deductions,Social Contribution on Net Income,-564142.24,-524543.57,1,Drug Store
+(-) Deductions,Social Integration Program,-194288.78,-180651.12,1,Drug Store
+(=) Net Revenue,Net Revenue,12863532.21,11788683.09,2,Drug Store
+(-) Cost of Goods/Services,Production Cost,-1349994.76,-1254205.93,3,Drug Store
+(-) Cost of Goods/Services,Freight/Packaging and Other Costs,-177842.32,-164874.53,3,Drug Store
+(-) Cost of Goods/Services,Goods Used as Inputs,-3365311.96,-3194742.82,3,Drug Store
+(=) Gross Profit,Gross Profit,7970383.17,7174859.81,4,Drug Store
+(-) Personnel Expenses,Uniforms,-3200.0,-8400.0,5,Drug Store
+(-) Personnel Expenses,Courses and Training,-94240.0,-48000.0,5,Drug Store
+(-) Personnel Expenses,Medical and Dental Assistance,-342370.49,-326070.13,5,Drug Store
+(-) Personnel Expenses,Transportation,-128540.37,-411780.12,5,Drug Store
+(-) Personnel Expenses,Vacation,-480103.66,-467002.58,5,Drug Store
+(-) Personnel Expenses,Severance Pay Fund,-738860.71,-648120.9,5,Drug Store
+(-) Personnel Expenses,Social Security Contribution,-222661.29,-212058.37,5,Drug Store
+(-) Personnel Expenses,Pro-labor,-275048.4,-250044.0,5,Drug Store
+(-) Personnel Expenses,Salaries and Wages,-1313696.17,-1243738.25,5,Drug Store
+(-) Personnel Expenses,Labor Indemnities,-50470.07,-46300.34,5,Drug Store
+(-) Administrative Expenses,Snacks and Meals,-23458.72,-19487.12,6,Drug Store
+(-) Administrative Expenses,Miscellaneous,-7244.12,-10756.95,6,Drug Store
+(-) Administrative Expenses,Various Taxes,-2700.95,-2500.64,6,Drug Store
+(-) Administrative Expenses,Urban Property Tax,-22413.57,-21760.75,6,Drug Store
+(-) Administrative Expenses,Legal Fees Services,-17533.56,-16541.09,6,Drug Store
+(-) Administrative Expenses,Third-Party Services,-12260.9,-28549.47,6,Drug Store
+(-) Administrative Expenses,Water and Sewage,-17981.51,-16649.55,6,Drug Store
+(-) Administrative Expenses,Accounting Services,-124031.88,-118125.6,6,Drug Store
+(-) Administrative Expenses,Low-Value Assets,-7500.0,-8000.0,6,Drug Store
+(-) Administrative Expenses,Consumables,-12500.62,-11000.71,6,Drug Store
+(-) Administrative Expenses,Electricity,-102100.75,-92053.76,6,Drug Store
+(-) Administrative Expenses,Office Supplies,-10209.1,-9281.0,6,Drug Store
+(-) IT Expenses,IT Services,-9670.54,-9298.6,7,Drug Store
+(-) IT Expenses,Consultancy Services,-170111.11,-189142.56,7,Drug Store
+(-) IT Expenses,Insurance Premiums,-20866.8,-18798.92,7,Drug Store
+(-) IT Expenses,Softwares,-16050.24,-15071.66,7,Drug Store
+(-) IT Expenses,Telephone and Internet,-54560.66,-49153.75,7,Drug Store
+(-) IT Expenses,Various Software,-29302.24,-26631.7,7,Drug Store
+(-) Marketing and Sales Expenses,Sales Expenses,-456412.21,-412124.32,8,Drug Store
+(-) Marketing and Sales Expenses,Advertising and Publicity,-42370.56,-41136.47,8,Drug Store
+(-) Marketing and Sales Expenses,Graphic Services,-8258.25,-7865.0,8,Drug Store
+(-) Marketing and Sales Expenses,Events,-352100.12,-289314.54,8,Drug Store
+(-) Marketing and Sales Expenses,Hosting (Website and Email),-3812.81,-3466.19,8,Drug Store
+(-) General Expenses,Credit Card Expenses,-60477.63,-53997.88,9,Drug Store
+(-) General Expenses,Registry Office,-1254.72,-1089.78,9,Drug Store
+(-) General Expenses,Associations and Unions,-2277.93,-2148.99,9,Drug Store
+(-) General Expenses,Rental of Machines and Equipment,-1390.92,-1230.9,9,Drug Store
+(-) General Expenses,Rent and Condominium,-258896.86,-247102.51,9,Drug Store
+(-) General Expenses,Travel and Representation,-24821.02,-23639.07,9,Drug Store
+(-) General Expenses,Judicial Agreement,-10439.59,-19666.29,9,Drug Store
+(-) General Expenses,Maintenance and Repairs,-22282.4,-19895.0,9,Drug Store
+(=) EBITDA,Result Before Financial Effect and Tax,2415899.72,1727864.35,10,Drug Store
+(+) Financial Charges,Financial Charges,-48314.33,-45153.58,11,Drug Store
+(-) Financial Income,Financial Income,54550.12,41714.12,12,Drug Store
+(-) Profit Tax,Provision for Income Tax,-597798.43,-445522.31,13,Drug Store
+(-) Depreciation / Amortization,Depreciation and Amortization,-119559.69,-89104.46,13,Drug Store
+(=) Net Result,Net Result,1704777.39,1189798.12,14,Drug Store
+(+) Gross Revenue,Goods Sold,1947550.61,1698123.74,0,Aesthetics
+(+) Gross Revenue,Services Rendered,7595943.95,8100103.25,0,Aesthetics
+(-) Deductions,Discounts,-238587.36,-251814.43,1,Aesthetics
+(-) Deductions,Goods and Services Tax,-475951.59,-488655.56,1,Aesthetics
+(-) Deductions,Social Contribution on Net Income,-379735.7,-389871.51,1,Aesthetics
+(-) Deductions,Social Integration Program,-184753.98,-189685.38,1,Aesthetics
+(=) Net Revenue,Net Revenue,8264465.93,8478200.1,2,Aesthetics
+(-) Cost of Goods/Services,Production Cost,-834276.67,-932156.39,3,Aesthetics
+(-) Cost of Goods/Services,Freight/Packaging and Other Costs,-114258.8,-119757.2,3,Aesthetics
+(-) Cost of Goods/Services,Goods Used as Inputs,-2162120.45,-2166180.13,3,Aesthetics
+(=) Gross Profit,Gross Profit,5153810.01,5260106.38,4,Aesthetics
+(-) Personnel Expenses,Uniforms,-2055.91,-2956.9,5,Aesthetics
+(-) Personnel Expenses,Courses and Training,-60546.61,-62960.28,5,Aesthetics
+(-) Personnel Expenses,Medical and Dental Assistance,-219963.63,-229043.57,5,Aesthetics
+(-) Personnel Expenses,Transportation,-82583.66,-85567.24,5,Aesthetics
+(-) Personnel Expenses,Vacation,-308453.41,-317278.4,5,Aesthetics
+(-) Personnel Expenses,Severance Pay Fund,-416846.44,-487822.07,5,Aesthetics
+(-) Personnel Expenses,Social Security Contribution,-126524.83,-147601.21,5,Aesthetics
+(-) Personnel Expenses,Pro-labor,-176711.04,-182128.93,5,Aesthetics
+(-) Personnel Expenses,Salaries and Wages,-751977.67,-517927.0,5,Aesthetics
+(-) Personnel Expenses,Labor Indemnities,-32425.63,-34112.04,5,Aesthetics
+(-) Administrative Expenses,Snacks and Meals,-14245.14,-16309.18,6,Aesthetics
+(-) Administrative Expenses,Miscellaneous,-6307.04,-5622.33,6,Aesthetics
+(-) Administrative Expenses,Various Taxes,-2561.73,-2627.98,6,Aesthetics
+(-) Administrative Expenses,Urban Property Tax,-15226.55,-15620.34,6,Aesthetics
+(-) Administrative Expenses,Legal Fees Services,-13744.17,-12403.98,6,Aesthetics
+(-) Administrative Expenses,Third-Party Services,-7050.84,-8928.83,6,Aesthetics
+(-) Administrative Expenses,Water and Sewage,-19817.09,-12699.22,6,Aesthetics
+(-) Administrative Expenses,Accounting Services,-10695.98,-82595.75,6,Aesthetics
+(-) Administrative Expenses,Low-Value Assets,-4818.54,-5790.98,6,Aesthetics
+(-) Administrative Expenses,Consumables,-8031.3,-9086.83,6,Aesthetics
+(-) Administrative Expenses,Electricity,-73861.39,-68141.2,6,Aesthetics
+(-) Administrative Expenses,Office Supplies,-7385.51,-7576.52,6,Aesthetics
+(-) IT Expenses,IT Services,-6213.06,-7221.56,7,Aesthetics
+(-) IT Expenses,Consultancy Services,-96895.01,-112966.02,7,Aesthetics
+(-) IT Expenses,Insurance Premiums,-13406.35,-14600.88,7,Aesthetics
+(-) IT Expenses,Softwares,-10311.84,-11426.34,7,Aesthetics
+(-) IT Expenses,Telephone and Internet,-35053.72,-36808.1,7,Aesthetics
+(-) IT Expenses,Various Software,-18825.88,-20160.58,7,Aesthetics
+(-) Marketing and Sales Expenses,Sales Expenses,-268438.9,-301663.64,8,Aesthetics
+(-) Marketing and Sales Expenses,Advertising and Publicity,-27221.92,-28773.75,8,Aesthetics
+(-) Marketing and Sales Expenses,Graphic Services,-5305.7,-6290.73,8,Aesthetics
+(-) Marketing and Sales Expenses,Events,-226214.65,-232912.79,8,Aesthetics
+(-) Marketing and Sales Expenses,Hosting (Website and Email),-2449.63,-3360.8,8,Aesthetics
+(-) General Expenses,Credit Card Expenses,-38855.22,-40707.9,9,Aesthetics
+(-) General Expenses,Registry Office,-806.12,-1674.79,9,Aesthetics
+(-) General Expenses,Associations and Unions,-1463.51,-2349.18,9,Aesthetics
+(-) General Expenses,Rental of Machines and Equipment,-893.63,-1764.56,9,Aesthetics
+(-) General Expenses,Rent and Condominium,-207656.45,-171483.64,9,Aesthetics
+(-) General Expenses,Travel and Representation,-15946.82,-17207.06,9,Aesthetics
+(-) General Expenses,Judicial Agreement,-6707.15,-7728.43,9,Aesthetics
+(-) General Expenses,Maintenance and Repairs,-14315.83,-15533.88,9,Aesthetics
+(=) EBITDA,Result Before Financial Effect and Tax,1794994.5,1910670.99,10,Aesthetics
+(+) Financial Charges,Financial Charges,-31040.63,-32691.22,11,Aesthetics
+(-) Financial Income,Financial Income,35046.95,35105.51,12,Aesthetics
+(-) Profit Tax,Provision for Income Tax,-384069.06,-394849.61,13,Aesthetics
+(-) Depreciation / Amortization,Depreciation and Amortization,-76813.81,-79648.18,13,Aesthetics
+(=) Net Result,Net Result,1338117.95,1438587.49,14,Aesthetics
+(+) Gross Revenue,Goods Sold,70947550.61,61201917.14,0,Goods Store
+(+) Gross Revenue,Services Rendered,595943.95,530103.25,0,Goods Store
+(-) Deductions,Discounts,-3934892.2,-3216238.26,1,Goods Store
+(-) Deductions,Goods and Services Tax,-6859006.11,-5671434.0,1,Goods Store
+(-) Deductions,Social Contribution on Net Income,-1415846.18,-1159945.03,1,Goods Store
+(-) Deductions,Social Integration Program,-669586.57,-392563.41,1,Goods Store
+(=) Net Revenue,Net Revenue,58664163.5,51291839.69,2,Goods Store
+(-) Cost of Goods/Services,Production Cost,-17555100.68,-15590023.31,3,Goods Store
+(-) Cost of Goods/Services,Freight/Packaging and Other Costs,-3744258.42,-3222425.73,3,Goods Store
+(-) Cost of Goods/Services,Goods Used as Inputs,-17694078.24,-15265296.55,3,Goods Store
+(=) Gross Profit,Gross Profit,19670726.16,17214094.1,4,Goods Store
+(-) Personnel Expenses,Uniforms,-50026.76,-43698.87,5,Goods Store
+(-) Personnel Expenses,Courses and Training,-189669.28,-165792.51,5,Goods Store
+(-) Personnel Expenses,Medical and Dental Assistance,-1433082.76,-1252946.25,5,Goods Store
+(-) Personnel Expenses,Transportation,-569489.32,-497880.58,5,Goods Store
+(-) Personnel Expenses,Vacation,-700030.56,-612016.7,5,Goods Store
+(-) Personnel Expenses,Severance Pay Fund,-1234786.79,-1079570.13,5,Goods Store
+(-) Personnel Expenses,Social Security Contribution,-728872.8,-637234.35,5,Goods Store
+(-) Personnel Expenses,Pro-labor,-720808.19,-630183.21,5,Goods Store
+(-) Personnel Expenses,Salaries and Wages,-4781262.13,-4180360.02,5,Goods Store
+(-) Personnel Expenses,Labor Indemnities,-248178.75,-216949.1,5,Goods Store
+(-) Administrative Expenses,Snacks and Meals,-160485.25,-140276.04,6,Goods Store
+(-) Administrative Expenses,Miscellaneous,-115518.64,-100960.38,6,Goods Store
+(-) Administrative Expenses,Various Taxes,-89343.73,-78074.88,6,Goods Store
+(-) Administrative Expenses,Urban Property Tax,-173318.1,-151496.18,6,Goods Store
+(-) Administrative Expenses,Legal Fees Services,-121789.38,-106443.08,6,Goods Store
+(-) Administrative Expenses,Third-Party Services,-73984.42,-64645.77,6,Goods Store
+(-) Administrative Expenses,Water and Sewage,-194111.93,-169676.85,6,Goods Store
+(-) Administrative Expenses,Accounting Services,-146672.92,-128199.5,6,Goods Store
+(-) Administrative Expenses,Low-Value Assets,-99438.31,-86900.87,6,Goods Store
+(-) Administrative Expenses,Consumables,-69387.24,-60626.31,6,Goods Store
+(-) Administrative Expenses,Electricity,-559903.98,-489499.83,6,Goods Store
+(-) Administrative Expenses,Office Supplies,-141183.92,-123400.3,6,Goods Store
+(-) IT Expenses,IT Services,-115027.49,-100530.96,7,Goods Store
+(-) IT Expenses,Consultancy Services,-154245.23,-134820.21,7,Goods Store
+(-) IT Expenses,Insurance Premiums,-125375.13,-109578.2,7,Goods Store
+(-) IT Expenses,Softwares,-138431.7,-120993.96,7,Goods Store
+(-) IT Expenses,Telephone and Internet,-102750.23,-89796.58,7,Goods Store
+(-) IT Expenses,Various Software,-181444.22,-158601.09,7,Goods Store
+(-) Marketing and Sales Expenses,Sales Expenses,-81431.44,-71156.92,8,Goods Store
+(-) Marketing and Sales Expenses,Advertising and Publicity,-463731.48,-405413.32,8,Goods Store
+(-) Marketing and Sales Expenses,Graphic Services,-73505.57,-64227.09,8,Goods Store
+(-) Marketing and Sales Expenses,Events,-128178.99,-112029.71,8,Goods Store
+(-) Marketing and Sales Expenses,Hosting (Website and Email),-99928.81,-87329.72,8,Goods Store
+(-) General Expenses,Credit Card Expenses,-305961.73,-267470.49,9,Goods Store
+(-) General Expenses,Registry Office,-76823.12,-67127.73,9,Goods Store
+(-) General Expenses,Associations and Unions,-69287.32,-60538.95,9,Goods Store
+(-) General Expenses,Rental of Machines and Equipment,-83486.67,-72953.87,9,Goods Store
+(-) General Expenses,Rent and Condominium,-928678.38,-811930.36,9,Goods Store
+(-) General Expenses,Travel and Representation,-166346.04,-145400.31,9,Goods Store
+(-) General Expenses,Judicial Agreement,-101170.15,-88415.07,9,Goods Store
+(-) General Expenses,Maintenance and Repairs,-125905.89,-110047.4,9,Goods Store
+(=) EBITDA,Result Before Financial Effect and Tax,3547671.42,3118900.44,10,Goods Store
+(+) Financial Charges,Financial Charges,-273370.0,-305694.99,11,Goods Store
+(-) Financial Income,Financial Income,782385.16,694321.21,12,Goods Store
+(-) Profit Tax,Provision for Income Tax,-2779293.3,-2327435.91,13,Goods Store
+(-) Depreciation / Amortization,Depreciation and Amortization,-598284.58,-574390.02,13,Goods Store
+(=) Net Result,Net Result,679108.7,605700.74,14,Goods Store
+(+) Gross Revenue,Goods Sold,5912426.79,4993547.83,0,Clothes Store
+(-) Deductions,Discounts,-325183.47,-274645.13,1,Clothes Store
+(-) Deductions,Goods and Services Tax,-330504.66,-224709.65,1,Clothes Store
+(-) Deductions,Social Contribution on Net Income,-93416.34,-59922.57,1,Clothes Store
+(-) Deductions,Social Integration Program,-55576.81,-44941.93,1,Clothes Store
+(=) Net Revenue,Net Revenue,5107745.5,4389328.54,2,Clothes Store
+(-) Cost of Goods/Services,Production Cost,-2345476.74,-1753536.75,3,Clothes Store
+(-) Cost of Goods/Services,Freight/Packaging and Other Costs,-172641.8,-132118.79,3,Clothes Store
+(-) Cost of Goods/Services,Goods Used as Inputs,-1029721.49,-840117.48,3,Clothes Store
+(=) Gross Profit,Gross Profit,1559905.48,1663555.52,4,Clothes Store
+(-) Personnel Expenses,Uniforms,-6285.59,-5401.51,5,Clothes Store
+(-) Personnel Expenses,Courses and Training,-18033.41,-15496.96,5,Clothes Store
+(-) Personnel Expenses,Medical and Dental Assistance,-126317.61,-108550.73,5,Clothes Store
+(-) Personnel Expenses,Transportation,-51233.75,-44027.6,5,Clothes Store
+(-) Personnel Expenses,Vacation,-62470.79,-53684.12,5,Clothes Store
+(-) Personnel Expenses,Severance Pay Fund,-108951.28,-93627.01,5,Clothes Store
+(-) Personnel Expenses,Social Security Contribution,-65024.66,-55878.79,5,Clothes Store
+(-) Personnel Expenses,Pro-labor,-64513.89,-55439.85,5,Clothes Store
+(-) Personnel Expenses,Salaries and Wages,-366892.42,-315288.1,5,Clothes Store
+(-) Personnel Expenses,Labor Indemnities,-23141.15,-19886.29,5,Clothes Store
+(-) Administrative Expenses,Snacks and Meals,-15479.53,-13302.3,6,Clothes Store
+(-) Administrative Expenses,Miscellaneous,-11904.11,-10229.77,6,Clothes Store
+(-) Administrative Expenses,Various Taxes,-9350.24,-8035.1,6,Clothes Store
+(-) Administrative Expenses,Urban Property Tax,-17011.86,-14619.1,6,Clothes Store
+(-) Administrative Expenses,Legal Fees Services,-12414.89,-10668.7,6,Clothes Store
+(-) Administrative Expenses,Third-Party Services,-8328.69,-7157.24,6,Clothes Store
+(-) Administrative Expenses,Water and Sewage,-18544.18,-15935.9,6,Clothes Store
+(-) Administrative Expenses,Accounting Services,-14457.98,-12424.43,6,Clothes Store
+(-) Administrative Expenses,Low-Value Assets,-10371.79,-8912.97,6,Clothes Store
+(-) Administrative Expenses,Consumables,-7817.92,-6718.31,6,Clothes Store
+(-) Administrative Expenses,Electricity,-50212.2,-43149.73,6,Clothes Store
+(-) Administrative Expenses,Office Supplies,-13947.21,-11985.5,6,Clothes Store
+(-) IT Expenses,IT Services,-11904.11,-10229.77,7,Clothes Store
+(-) IT Expenses,Consultancy Services,-14968.76,-12863.37,7,Clothes Store
+(-) IT Expenses,Insurance Premiums,-12414.89,-10668.7,7,Clothes Store
+(-) IT Expenses,Softwares,-13947.21,-11985.5,7,Clothes Store
+(-) IT Expenses,Telephone and Internet,-10882.56,-9351.9,7,Clothes Store
+(-) IT Expenses,Various Software,-17522.63,-15058.03,7,Clothes Store
+(-) Marketing and Sales Expenses,Sales Expenses,-8839.46,-7596.17,8,Clothes Store
+(-) Marketing and Sales Expenses,Advertising and Publicity,-42039.81,-36126.81,8,Clothes Store
+(-) Marketing and Sales Expenses,Graphic Services,-8328.69,-7157.24,8,Clothes Store
+(-) Marketing and Sales Expenses,Events,-12925.66,-11107.63,8,Clothes Store
+(-) Marketing and Sales Expenses,Hosting (Website and Email),-10371.79,-8912.97,8,Clothes Store
+(-) General Expenses,Credit Card Expenses,-28248.9,-24275.62,9,Clothes Store
+(-) General Expenses,Registry Office,-8328.69,-7157.24,9,Clothes Store
+(-) General Expenses,Associations and Unions,-7817.92,-6718.31,9,Clothes Store
+(-) General Expenses,Rental of Machines and Equipment,-8839.46,-7596.17,9,Clothes Store
+(-) General Expenses,Rent and Condominium,-82391.0,-70802.5,9,Clothes Store
+(-) General Expenses,Travel and Representation,-15990.31,-13741.23,9,Clothes Store
+(-) General Expenses,Judicial Agreement,-10371.79,-8912.97,9,Clothes Store
+(-) General Expenses,Maintenance and Repairs,-12414.89,-10668.7,9,Clothes Store
+(=) EBITDA,Result Before Financial Effect and Tax,138651.79,442204.66,10,Clothes Store
+(+) Financial Charges,Financial Charges,-24006.4,-20629.84,11,Clothes Store
+(-) Financial Income,Financial Income,67933.02,-57939.14,12,Clothes Store
+(-) Profit Tax,Provision for Income Tax,-139952.23,87347.64,13,Clothes Store
+(-) Depreciation / Amortization,Depreciation and Amortization,-52099.0,-36870.36,13,Clothes Store
+(=) Net Result,Net Result,-9472.82,414112.96,14,Clothes Store
+(+) Gross Revenue,Goods Sold,84234578.55,78100021.11,0,Building Material Store
+(-) Deductions,Discounts,-5786915.55,-4295501.16,1,Building Material Store
+(-) Deductions,Goods and Services Tax,-4708712.94,-3514500.95,1,Building Material Store
+(-) Deductions,Social Contribution on Net Income,-1330906.34,-937200.25,1,Building Material Store
+(-) Deductions,Social Integration Program,-791805.04,-702900.19,1,Building Material Store
+(=) Net Revenue,Net Revenue,71616238.68,68649918.55,2,Building Material Store
+(-) Cost of Goods/Services,Production Cost,-25058521.91,-24748295.64,3,Building Material Store
+(-) Cost of Goods/Services,Freight/Packaging and Other Costs,-4569116.03,-4119681.61,3,Building Material Store
+(-) Cost of Goods/Services,Goods Used as Inputs,-19450970.43,-20038911.23,3,Building Material Store
+(=) Gross Profit,Gross Profit,22537630.31,19743030.08,4,Building Material Store
+(-) Personnel Expenses,Uniforms,-88130.94,-78171.66,5,Building Material Store
+(-) Personnel Expenses,Courses and Training,-109615.81,-98766.64,5,Building Material Store
+(-) Personnel Expenses,Medical and Dental Assistance,-1771112.55,-1691444.75,5,Building Material Store
+(-) Personnel Expenses,Transportation,-718353.84,-682290.95,5,Building Material Store
+(-) Personnel Expenses,Vacation,-875909.57,-833320.77,5,Building Material Store
+(-) Personnel Expenses,Severance Pay Fund,-1527617.34,-1458035.03,5,Building Material Store
+(-) Personnel Expenses,Social Security Contribution,-911717.69,-867645.73,5,Building Material Store
+(-) Personnel Expenses,Pro-labor,-761323.59,-723480.9,5,Building Material Store
+(-) Personnel Expenses,Salaries and Wages,-3587973.56,-3433051.99,5,Building Material Store
+(-) Personnel Expenses,Labor Indemnities,-324464.53,-304716.39,5,Building Material Store
+(-) Administrative Expenses,Snacks and Meals,-217040.17,-201741.52,6,Building Material Store
+(-) Administrative Expenses,Miscellaneous,-166908.81,-153686.57,6,Building Material Store
+(-) Administrative Expenses,Various Taxes,-131100.69,-119361.61,6,Building Material Store
+(-) Administrative Expenses,Urban Property Tax,-238525.04,-222336.49,6,Building Material Store
+(-) Administrative Expenses,Legal Fees Services,-174070.43,-160551.56,6,Building Material Store
+(-) Administrative Expenses,Third-Party Services,-116777.44,-105631.63,6,Building Material Store
+(-) Administrative Expenses,Water and Sewage,-260009.92,-242931.47,6,Building Material Store
+(-) Administrative Expenses,Accounting Services,-202716.93,-188011.53,6,Building Material Store
+(-) Administrative Expenses,Low-Value Assets,-145423.93,-133091.6,6,Building Material Store
+(-) Administrative Expenses,Consumables,-109615.81,-98766.64,6,Building Material Store
+(-) Administrative Expenses,Electricity,-704030.6,-668560.96,6,Building Material Store
+(-) Administrative Expenses,Office Supplies,-195555.3,-181146.54,6,Building Material Store
+(-) IT Expenses,IT Services,-166908.81,-153686.57,7,Building Material Store
+(-) IT Expenses,Consultancy Services,-209878.55,-194876.52,7,Building Material Store
+(-) IT Expenses,Insurance Premiums,-174070.43,-160551.56,7,Building Material Store
+(-) IT Expenses,Softwares,-195555.3,-181146.54,7,Building Material Store
+(-) IT Expenses,Telephone and Internet,-152585.56,-139956.59,7,Building Material Store
+(-) IT Expenses,Various Software,-245686.67,-229201.48,7,Building Material Store
+(-) Marketing and Sales Expenses,Sales Expenses,-123939.06,-112496.62,8,Building Material Store
+(-) Marketing and Sales Expenses,Advertising and Publicity,-589444.61,-558721.09,8,Building Material Store
+(-) Marketing and Sales Expenses,Graphic Services,-116777.44,-105631.63,8,Building Material Store
+(-) Marketing and Sales Expenses,Events,-181232.05,-167416.56,8,Building Material Store
+(-) Marketing and Sales Expenses,Hosting (Website and Email),-145423.93,-133091.6,8,Building Material Store
+(-) General Expenses,Credit Card Expenses,-396080.77,-373366.31,9,Building Material Store
+(-) General Expenses,Registry Office,-116777.44,-105631.63,9,Building Material Store
+(-) General Expenses,Associations and Unions,-109615.81,-98766.64,9,Building Material Store
+(-) General Expenses,Rental of Machines and Equipment,-123939.06,-112496.62,9,Building Material Store
+(-) General Expenses,Rent and Condominium,-1155212.9,-1101055.45,9,Building Material Store
+(-) General Expenses,Travel and Representation,-224201.8,-208606.51,9,Building Material Store
+(-) General Expenses,Judicial Agreement,-145423.93,-133091.6,9,Building Material Store
+(-) General Expenses,Maintenance and Repairs,-174070.43,-160551.56,9,Building Material Store
+(=) EBITDA,Result Before Financial Effect and Tax,4452811.26,2665944.07,10,Building Material Store
+(+) Financial Charges,Financial Charges,-336596.32,-322654.62,11,Building Material Store
+(-) Financial Income,Financial Income,952495.97,-906178.92,12,Building Material Store
+(-) Profit Tax,Provision for Income Tax,-1962284.94,1881007.77,13,Building Material Store
+(-) Depreciation / Amortization,Depreciation and Amortization,-730485.63,-1263158.5,13,Building Material Store
+(=) Net Result,Net Result,2375940.33,2054959.8,14,Building Material Store

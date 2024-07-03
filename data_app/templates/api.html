@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+<style>
+    body {
+        background-color: rgba(18, 48, 56, 0.8)
+    }
+</style>
+
+<br>
+<h1 style="text-align: center; color: #ffffff;">Api Demonstration</h1>
+<br>
+<hr>
+<h5 style="text-align: center; color: #ffffff;"> Queries SQL</h5>
+<div class="jumbotron" style="padding: 1rem; margin-bottom: 0;">
+    <div class="container">
+        <div class="list-group">
+            <a href="{{ url_for('get_pizza_sales', query_id=1) }}" class="list-group-item list-group-item-action">Total Sales by Pizza Name</a>
+            <a href="{{ url_for('get_pizza_sales', query_id=2) }}" class="list-group-item list-group-item-action">Total Sales by Month and Pizza Name</a>
+            <a href="{{ url_for('get_pizza_sales', query_id=3) }}" class="list-group-item list-group-item-action">Top 10 Sales</a>
+            <a href="{{ url_for('get_pizza_sales', query_id=4) }}" class="list-group-item list-group-item-action">Average Sales by Category</a>
+            <a href="{{ url_for('get_pizza_sales', query_id=5) }}" class="list-group-item list-group-item-action">Total Sales by Pizza Size and Month</a>
+        </div>        
+    </div>
+</div>
+<br>
+<h5 style="text-align: center; color: #ffffff;"> Machine Learning Model</h5>
+<div class="jumbotron" style="padding: 1rem; margin-bottom: 0;">
+    <div class="container">
+        <div class="list-group">
+            <a href="{{ url_for('make_predicts') }}" class="list-group-item list-group-item-action">Sales Predict</a>
+        </div>        
+    </div>
+</div>
+    
+{% endblock conteudo %}
+

@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<style>
+    body {
+      background-color:  rgba(220, 222, 233, 0.8)
+    }
+</style>
+<main class="main main--home" style="padding: 10px;max-width: 600px;">
+    <div class="card text" style="padding: 30px;background-color: rgb(217, 224, 215);">
+        <header class="header">
+            <h1>Medical Cost Predict</h1>
+    
+            <nav class="nav">
+                <a href="{{ url_for('doc_regression_app_01') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('doc_regression_app_01') }}">
+                    Documentation
+                </a>
+            </nav>
+        </header>
+        <h3>Features Form</h3>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+
+            <div class="mb-3">
+                {{ form.name.label(class="form-label") }}
+                {{ form.name(class="form-control", id="name") }}
+            </div>
+
+            <div class="mb-3"> 
+                {{ form.age.label(class="form-label") }}
+                {{ form.age(class="form-control", id="age") }}
+            </div>
+
+            <div class="mb-3"> 
+                {{ form.sex.label(class="form-label") }}
+                {{ form.sex(class="form-select", id="sex") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.bmi.label(class="form-label") }}
+                <div class="input-group">
+                    {{ form.bmi(class="form-control", id="bmi") }}
+                    <a href="https://www.calculator.net/bmi-calculator.html" class="btn btn-outline-secondary" role="button">
+                        ?
+                    </a>
+                </div>
+            </div>     
+
+            <div class="mb-3">
+                {{ form.children.label(class="form-label") }}
+                {{ form.children(class="form-control", id="children") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.smoker.label }} {{ form.smoker() }}<br>
+            </div>
+
+            <button type="submit" class="btn btn-light" >Predict</button>
+        </form>
+        <br>
+    </div>
+</main>
+
+{% endblock conteudo %}

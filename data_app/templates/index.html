@@ -1,0 +1,275 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<style>
+    body {
+        background-color: rgba(18, 48, 56, 0.8);
+    }
+    .card-body {
+        color: #062c2c;
+    }
+    .img-thumbnail {
+        width: 250px;
+        height: auto;
+        margin-right: 20px;
+    }
+    .timeline-steps {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .timeline-step {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 1rem;
+    }
+    @media (min-width: 768px) {
+        .timeline-step:not(:last-child)::after {
+            content: "";
+            display: block;
+            border-top: .25rem dotted #060e0c;
+            width: 3.46rem;
+            position: absolute;
+            left: 7.5rem;
+            top: .3125rem;
+        }
+        .timeline-step:not(:first-child)::before {
+            content: "";
+            display: block;
+            border-top: .25rem dotted #060e0c;
+            width: 3.8125rem;
+            position: absolute;
+            right: 7.5rem;
+            top: .3125rem;
+        }
+    }
+    .timeline-content {
+        width: 10rem;
+        text-align: center;
+    }
+    .timeline-content a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.5rem;
+        height: 1rem;
+        width: 1rem;
+        background-color: #4f726d;
+        text-decoration: none; /* Remove underline */
+    }
+    .timeline-content a::before {
+        content: "";
+        background-color: #14241c;
+        display: inline-block;
+        height: 3rem;
+        width: 3rem;
+        min-width: 3rem;
+        border-radius: 6.25rem;
+        opacity: .5;
+    }
+</style>
+
+<div class="container">
+  <br>
+  
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Introduction</h5>
+      <hr>
+      <p>Hello! Welcome to my data portfolio!</p>
+      <p>Here, you can explore some of my projects in data science, machine learning engineering, and data analytics.</p>
+      <img src="/static/img/foto.jpeg" alt="Certification" class="img-thumbnail">
+      <br><p></p>
+      <a href="https://www.linkedin.com/in/felipenogueira92/" target="_blank">
+        <img src="static/img/linkedin.png" alt="LinkedIn" style="width: 40px; height: auto;">
+      </a>
+      <a href="mailto:fenogueirasantos@gmail.com" target="_blank">
+        <img src="static/img/email.png" alt="Email" style="width: 40px; height: auto;">
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=5531999708214" target="_blank">
+        <img src="static/img/whatsapp.png" alt="WhatsApp" style="width: 40px; height: auto;">
+      </a>
+      <br><br>
+      <p>My name is Felipe Nogueira, and I am a data professional with over 7 years of experience. I apply descriptive, diagnostic, predictive, and prescriptive analytics to drive informed decision-making. Additionally, I am proficient in Python development, with a focus on Robotic Process Automation (RPA).</p>
+      <p>Throughout my career, I have contributed to various projects in automation, data engineering, analytics, and data science.</p>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Experience</h5>
+      <hr>
+      <div class="container">
+        <div class="row text-center justify-content-center mb-5">
+          <div class="col-xl-6 col-lg-8">
+            <h2 class="font-weight-bold">Professional Experience Evolution</h2>
+            <p class="text-muted">Explore the history of my career.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+              <div class="timeline-step">
+                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                  <a href="https://example.com" target="_blank"></a>
+                  <p class="h6 mt-3 mb-1">2014 - 2015</p>
+                  <p class="h6 text-muted mb-0 mb-lg-0">Supply Intern</p>
+                  <p class="h7 text-muted mb-0 mb-lg-0">Holcim S/A</p>
+                </div>
+              </div>
+              <div class="timeline-step">
+                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
+                  <a href="https://example.com" target="_blank"></a>
+                  <p class="h6 mt-3 mb-1">2016 - 2017</p>
+                  <p class="h6 text-muted mb-0 mb-lg-0">Financial Analyst</p>
+                  <p class="h7 text-muted mb-0 mb-lg-0">Linear Softwares</p>
+                </div>
+              </div>
+              <div class="timeline-step">
+                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
+                  <a href="https://example.com" target="_blank"></a>
+                  <p class="h6 mt-3 mb-1">2017 - 2018</p>
+                  <p class="h6 text-muted mb-0 mb-lg-0">Market Intelligence Analyst</p>
+                  <p class="h7 text-muted mb-0 mb-lg-0">Linear Softwares</p>
+                </div>
+              </div>
+              <div class="timeline-step">
+                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
+                  <a href="https://example.com" target="_blank"></a>
+                  <p class="h6 mt-3 mb-1">2019 - 2022</p>
+                  <p class="h6 text-muted mb-0 mb-lg-0">Data Analyst</p>
+                  <p class="h7 text-muted mb-0 mb-lg-0">Linear Softwares</p>
+                </div>
+              </div>
+              <div class="timeline-step">
+                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
+                  <a href="https://example.com" target="_blank"></a>
+                  <p class="h6 mt-3 mb-1">2022 - 2023</p>
+                  <p class="h6 text-muted mb-0 mb-lg-0">Data Analyst</p>
+                  <p class="h7 text-muted mb-0 mb-lg-0">Solides Tangerino HR Tech</p>
+                </div>
+              </div>
+              <div class="timeline-step mb-0">
+                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2020">
+                  <a href="https://example.com" target="_blank"></a>
+                  <p class="h6 mt-3 mb-1">2023 - 2024</p>
+                  <p class="h6 text-muted mb-0 mb-lg-0">Business Analyst RPA</p>
+                  <p class="h7 text-muted mb-0 mb-lg-0">Bernoulli Education</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Academic Background</h5>
+      <hr>
+      <p class="card-text">My academic background includes a degree in Logistics and postgraduate studies in Finance, Controller, and Auditing from Fundação Getúlio Vargas.</p>
+      <br>
+      <a href="https://media.licdn.com/dms/image/D4D2DAQHA9PJduPGmoQ/profile-treasury-image-shrink_800_800/0/1720043165638?e=1720648800&v=beta&t=P07bANl9N4E8SocOU_MuThF0JVt_a5ncz9qp3g7tVIw" target="_blank">
+        <img src="static/img/degree.jpeg" alt="Certification" class="img-thumbnail">
+    </a>
+    <a href="https://media.licdn.com/dms/image/D4D2DAQHdAAlSreITJw/profile-treasury-image-shrink_800_800/0/1720043235808?e=1720648800&v=beta&t=q4IKNHMks8rzJubIjRkxxRSLOB9O_-Hzfm9o__ll3e0" target="_blank">
+    <img src="static/img/post_degree.jpeg" alt="Certification" class="img-thumbnail">
+    </a>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Technical Background</h5>
+      <hr>
+      <p class="card-text">Since 2019, I have been taking project-oriented technical courses at Data Science Academy, increasing my background as a data professional.</p>
+      <img src="static/img/fada.png" alt="Certification" class="img-thumbnail">
+      <img src="static/img/fcd.png" alt="Certification" class="img-thumbnail">
+      <img src="static/img/feml.png" alt="Certification" class="img-thumbnail">
+      <br><p></p>
+      
+      <div class="course">
+        <h5>Formation Data Analyst</h5>
+        <p>Duration: 248 Hours</p>
+        <p><a href="https://media.licdn.com/dms/image/D4D2DAQGPymWBg7qvnQ/profile-treasury-image-shrink_800_800/0/1713192402246?e=1720648800&v=beta&t=C4RO4wZ0eIQg8I28KRp681f1jiNsAGKe3xuQ9LqgODI" target="_blank">View Certification</a></p>
+    </div>
+    <div class="course">
+        <h5>Formation Data Scientist</h5>
+        <p>Duration: 482 Hours</p>
+        <p><a href="https://media.licdn.com/dms/image/D4D2DAQHDYWTT4gqnLQ/profile-treasury-image-shrink_800_800/0/1713192320917?e=1720648800&v=beta&t=myDuid8nVzxbPySTosgMWB3e1WF7W_hbslsH1nXvni8" target="_blank">View Certification</a></p>
+    </div>
+    <div class="course">
+        <h5>Formation Machine Learning Engineer</h5>
+        <p>Duration: 344 Hours</p>
+        <p><a href="https://media.licdn.com/dms/image/D4D2DAQESblqMalNlbw/profile-treasury-image-shrink_800_800/0/1713192468479?e=1720648800&v=beta&t=3Ac4srCdx9YxudiwLvziDcWkb-_Xa8yhtysXw-acH0M" target="_blank">View Certification</a></p>
+    </div>
+    </div>
+  </div>
+
+  <br>
+  
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Tools</h5>
+      <hr>
+      <p class="card-text">Tools that are part of my daily routine.</p>
+      <div align="left">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="fastapi logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="flask logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" height="40" alt="rstudio logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" height="40" alt="ubuntu logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+      </div>
+      
+    <br><p></p>
+    </div>
+  </div>
+  
+  <br><p></p>
+</div>
+
+{% endblock conteudo %}

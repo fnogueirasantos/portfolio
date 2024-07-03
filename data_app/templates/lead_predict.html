@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<style>
+    body {
+        background-color: rgba(18, 48, 56, 0.8)
+    }
+</style>
+<main class="main main--home" style="padding: 10px;max-width: 600px;">
+    <div class="card text" style="padding: 30px;background-color: rgb(195, 213, 221);">
+        <header class="header">
+            <h2>Lead Predict</h2>
+        </header>
+        <a href="{{ url_for('doc_lead_predict') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('doc_lead_predict') }}" style="color: rgb(3, 99, 243);">
+            Documentation
+        </a><br>
+        <h5>Enter Target for Each Feature</h5>
+        <p style='color: rgb(5, 5, 5); font-size: 13px;'>👣 Fill the features and get your predictions.</p>
+
+        <form method="POST">
+            {{ form.hidden_tag() }}
+
+            <div class="mb-3"> 
+                {{ form.target_converted_users.label(class="form-label") }}
+                {{ form.target_converted_users(class="form-control", id="target_converted_users") }}
+            </div>
+
+            <div class="mb-3"> 
+                {{ form.min_budget.label(class="form-label") }}
+                {{ form.min_budget(class="form-control", id="min_budget") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.max_budget.label(class="form-label") }}
+                {{ form.max_budget(class="form-control", id="max_budget") }}
+            </div>     
+            <button type="submit" class="btn btn-light" >Predict</button>
+        </form>
+        <br>
+    </div>
+</main>
+{% endblock conteudo %}

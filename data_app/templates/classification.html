@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<style>
+    body {
+        background-color: rgba(18, 48, 56, 0.8)
+    }
+</style>
+<main class="main main--home" style="padding: 20px;max-width: 600px;">
+    <div class="card text" style="padding: 50px;background-color: rgb(182, 197, 197);">
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            <h1>Churn Predict</h1>
+            <a href="{{ url_for('doc_classification_app_01') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('doc_classification_app_01') }}" style="color: rgb(3, 99, 243);">
+                Documentation
+            </a><br><br>
+            <button type="submit" name="predict" class="btn btn-light" style="color: rgb(36, 45, 63);">Predict</button><br>
+            <h3>Features Form</h3>
+            <div class="mb-3"> 
+                {{ form.id.label(class="form-label") }} 
+                {{ form.id(class="form-control", id="id") }}
+            </div>
+
+            <div class="mb-3"> 
+                {{ form.gender.label(class="form-label") }}
+                {{ form.gender(id="gender") }}
+            </div>
+
+            <div class="mb-3"> 
+                {{ form.senior_citizen.label(class="form-label") }}
+                {{ form.senior_citizen(class="form-select", id="senior_citizen") }}
+            </div>
+
+            <div class="mb-3"> 
+                {{ form.partner.label(class="form-label") }}
+                {{ form.partner(class="form-select", id="partner") }}
+            </div>
+
+            <div class="mb-3"> 
+                {{ form.dependents.label(class="form-label") }}
+                {{ form.dependents(class="form-select", id="dependents") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.tenure.label(class="form-label") }}
+                {{ form.tenure(class="form-control", id="tenure") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.phone_service.label(class="form-label") }}
+                {{ form.phone_service(class="form-select", id="phone_service") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.multiple_lines.label(class="form-label") }}
+                {{ form.multiple_lines(class="form-select", id="multiple_lines") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.internet_service.label(class="form-label") }}
+                {{ form.internet_service(class="form-select", id="internet_service") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.online_security.label(class="form-label") }}
+                {{ form.online_security(class="form-select", id="online_security") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.online_backup.label(class="form-label") }}
+                {{ form.online_backup(class="form-select", id="online_backup") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.device_protection.label(class="form-label") }}
+                {{ form.device_protection(class="form-select", id="device_protection") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.tech_support.label(class="form-label") }}
+                {{ form.tech_support(class="form-select", id="tech_support") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.streaming_tv.label(class="form-label") }}
+                {{ form.streaming_tv(class="form-select", id="streaming_tv") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.streaming_movies.label(class="form-label") }}
+                {{ form.streaming_movies(class="form-select", id="streaming_movies") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.contract.label(class="form-label") }}
+                {{ form.contract(class="form-select", id="contract") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.paperless_billing.label(class="form-label") }}
+                {{ form.paperless_billing(class="form-select", id="paperless_billing") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.payment_method.label(class="form-label") }}
+                {{ form.payment_method(class="form-select", id="payment_method") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.total_charges.label(class="form-label") }}
+                {{ form.total_charges(class="form-control", id="total_charges") }}
+            </div>
+
+        <form>
+        <br>
+    </div>
+</main>
+{% endblock conteudo %}

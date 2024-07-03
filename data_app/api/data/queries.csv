@@ -1,0 +1,20 @@
+Query_ID,Report,Query
+1,Total_Sale_by_PizzaName,"SELECT Pizza_Name, round(SUM(Total_Sale), 2) AS Total_Sale
+            FROM pizza_sales
+            GROUP BY Pizza_Name"
+2,Total_Sale_by_Month_and_PizzaName,"SELECT 
+    Month_Year AS Month_Year,
+    Pizza_Name, 
+    ROUND(SUM(Total_Sale), 2) AS Total_Sale
+FROM 
+    pizza_sales
+GROUP BY 
+    Month_Year, Pizza_Name"
+3,Top10_Sale,"SELECT      Pizza_Name, SUM(Total_Sale) AS Total_Sales  FROM      pizza_sales  GROUP BY      Pizza_Name  ORDER BY      Total_Sales DESC LIMIT 10"
+4,Average_By_Category,"SELECT Pizza_Category, AVG(Total_Sale) AS Average_Total_Sale
+FROM pizza_sales
+GROUP BY Pizza_Category;"
+5,Total_by_Pizza_Size_and_Month,"SELECT Pizza_Size, strftime('%Y-%m', Order_Date) AS Month, SUM(Total_Sale) AS Total_Sales
+FROM pizza_sales
+GROUP BY Pizza_Size, Month;
+"

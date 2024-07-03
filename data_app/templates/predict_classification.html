@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<style>
+  body {
+    background-color: rgba(34, 31, 37, 0.8)
+  }
+</style>
+
+  <div class="card text-center" style="padding: 20px;max-width: 1200px;">
+    <div class="card-header" style="padding: 20px;max-width: 1200px;">
+      <h5> Prediction Results</h5>
+    </div>
+    <div class="card-body" style="padding: 20px;max-width: 1200px;">
+      <h6 class="card-title">Overview Features</h6>
+      <p class="card-text">Client: {{ form.id.data }}</p>
+      <div class="alert alert-danger" role="alert">
+        <p class="card-text">Probability Churn: {{ probability_Churn_Yes }}</p>
+      </div>
+      <div class="alert alert-info" role="alert">
+        Thank you for using my Churn Predictor!
+      </div>
+      <br>
+      <a href="/classification" class="btn btn-primary">Back</a><br>
+  </div>
+  
+  {% endblock conteudo %}

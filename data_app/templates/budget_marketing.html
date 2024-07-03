@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<style>
+    body {
+        background-color:rgba(18, 48, 56, 0.8)
+    }
+</style>
+<main class="main main--home" style="padding: 10px;max-width: 600px;">
+    <div class="card text" style="padding: 30px;background-color: rgb(202, 225, 230);">
+        <header class="header">
+            <h2>Marketing Budget Prediction</h2>
+        </header>
+        <a href="{{ url_for('doc_budget_marketing') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('doc_budget_marketing') }}" style="color: rgb(3, 99, 243);">
+            Documentation
+        </a><br>
+        <h5>Enter Target Revenue for Each Period</h5>
+        <p style='color: rgb(160, 11, 11); font-size: 13px;'>⚠️ Values divided by 1000 to facilitate visualization.</p>
+        <p style='color: rgb(160, 11, 11); font-size: 13px;'>⚠️ Revenue Target must be between 650k and 3600M.</p>
+
+        <form method="POST">
+            {{ form.hidden_tag() }}
+
+            <div class="mb-3">
+                {{ form.Period_01.label(class="form-label") }}
+                {{ form.Period_01(class="form-control", id="Period_01") }}
+            </div>
+
+            <div class="mb-3"> 
+                {{ form.Period_02.label(class="form-label") }}
+                {{ form.Period_02(class="form-control", id="Period_02") }}
+            </div>
+
+            <div class="mb-3"> 
+                {{ form.Period_03.label(class="form-label") }}
+                {{ form.Period_03(class="form-control", id="Period_03") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.Period_04.label(class="form-label") }}
+                {{ form.Period_04(class="form-control", id="Period_04") }}
+            </div>     
+
+            <div class="mb-3">
+                {{ form.Period_05.label(class="form-label") }}
+                {{ form.Period_05(class="form-control", id="Period_05") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.Period_06.label(class="form-label") }}
+                {{ form.Period_06(class="form-control", id="Period_06") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.Period_07.label(class="form-label") }}
+                {{ form.Period_07(class="form-control", id="Period_07") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.Period_08.label(class="form-label") }}
+                {{ form.Period_08(class="form-control", id="Period_08") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.Period_09.label(class="form-label") }}
+                {{ form.Period_09(class="form-control", id="Period_09") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.Period_10.label(class="form-label") }}
+                {{ form.Period_10(class="form-control", id="Period_10") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.Period_11.label(class="form-label") }}
+                {{ form.Period_11(class="form-control", id="Period_11") }}
+            </div>
+
+            <div class="mb-3">
+                {{ form.Period_12.label(class="form-label") }}
+                {{ form.Period_12(class="form-control", id="Period_12") }}
+            </div>
+
+            <button type="submit" class="btn btn-light" >Predict</button>
+        </form>
+        <br>
+    </div>
+</main>
+{% endblock conteudo %}
